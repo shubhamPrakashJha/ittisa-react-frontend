@@ -1,12 +1,13 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
+import icon from "../../assets/icon.png";
 import "./navBar.css";
 
 function NavBar() {
     return (
         <nav className="navbar navbar-light navbar-expand-md">
             <Link className="navbar-brand" to="/home">
-                ittisa
+                <img src={icon} alt="icon" />
             </Link>
             <button
                 className="navbar-toggler collapsed"
