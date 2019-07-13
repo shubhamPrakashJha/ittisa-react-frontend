@@ -1,6 +1,6 @@
 .navbar {
-    font-family: "cursive";
-    background: rgba(255, 255, 255, 0.9);
+    font-family: cursive;
+    background: #f3f3f359;
     /* position: fixed !important; */
     z-index: 2;
     width: 100%;
