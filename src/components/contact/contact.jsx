@@ -23,7 +23,6 @@ class ContactForm extends Form {
     };
 
     doSubmit = async () => {
-        // Call the server
         console.log(this.state);
         console.log("Submitted");
         const obj = {
@@ -35,8 +34,6 @@ class ContactForm extends Form {
         await http.post(config.apiEndpoint, obj);
 
         this.props.history.push("/messages");
-        // const posts = [post, ...this.state.posts];
-        // this.setState({ posts });
     };
 
     render() {
