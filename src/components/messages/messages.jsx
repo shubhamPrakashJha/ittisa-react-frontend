@@ -60,7 +60,7 @@ class Messages extends Component {
                             <td>{message.resolved ? "Resolved" : "Pending"}</td>
                             <td>
                                 <button
-                                    className="btn btn-info btn-sm"
+                                    className="btn btn-outline-success"
                                     onClick={() => this.handleUpdate(message)}
                                 >
                                     Update
@@ -68,7 +68,7 @@ class Messages extends Component {
                             </td>
                             <td>
                                 <button
-                                    className="btn btn-danger btn-sm"
+                                    className="btn btn-outline-danger"
                                     onClick={() => this.handleDelete(message)}
                                 >
                                     Delete
