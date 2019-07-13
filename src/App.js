@@ -1,10 +1,11 @@
 import React from 'react';
+import Container from "./components/container/container";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      Ittisa React App
+      <Container />
     </div>
   );
 }
