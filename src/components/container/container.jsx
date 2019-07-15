@@ -16,7 +16,7 @@ class Container extends Component {
                 <div className="container">
                     <Switch>
                         <Route path="/messages" component={Messages} />
-                        <Route path="/contact" component={Contact} />
+                        <Route path="/contact/:id" component={Contact} />
                         <Route path="/home" component={Home} />
                         <Route path="/not-found" component={NotFound} />
                         <Redirect from="/" exact to="/home" />

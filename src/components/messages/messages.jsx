@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import http from "../../services/httpservice";
 import config from "../../config.json";
 import "./message.css";
+import { Link } from "react-router-dom";
 
 class Messages extends Component {
     state = {
@@ -13,7 +14,7 @@ class Messages extends Component {
         this.setState({ messages });
     }
 
-    handleUpdate = async message => {
+    handleResolve = async message => {
         message.resolved = true;
         await http.put(config.apiEndpoint + "/" + message._id, message);
 
@@ -49,6 +50,7 @@ class Messages extends Component {
                         <th scope="col">Status</th>
                         <th />
                         <th />
+                        <th />
                     </tr>
                 </thead>
                 <tbody>
@@ -61,10 +63,18 @@ class Messages extends Component {
                             <td>
                                 <button
                                     className="btn btn-outline-success"
-                                    onClick={() => this.handleUpdate(message)}
+                                    onClick={() => this.handleResolve(message)}
                                 >
-                                    Update
+                                    Resolve
                                 </button>
+                            </td>
+                            <td>
+                                <Link
+                                    className="btn btn-outline-warning"
+                                    to={`/contact/${message._id}`}
+                                >
+                                    Edit
+                                </Link>
                             </td>
                             <td>
                                 <button

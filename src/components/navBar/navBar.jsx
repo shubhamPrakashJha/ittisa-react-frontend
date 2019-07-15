@@ -34,7 +34,7 @@ function NavBar() {
                         </NavLink>
                     </li>
                     <li className="nav-item" role="presentation">
-                        <NavLink className="nav-link" to="/contact">
+                        <NavLink className="nav-link" to="/contact/new">
                             Contact Us
                         </NavLink>
                     </li>
