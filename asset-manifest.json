@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ittisa-react-frontend/static/css/main.e75991fc.chunk.css",
+    "main.js": "/ittisa-react-frontend/static/js/main.3b826a5c.chunk.js",
+    "main.js.map": "/ittisa-react-frontend/static/js/main.3b826a5c.chunk.js.map",
+    "runtime~main.js": "/ittisa-react-frontend/static/js/runtime~main.ecfe8176.js",
+    "runtime~main.js.map": "/ittisa-react-frontend/static/js/runtime~main.ecfe8176.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/ittisa-react-frontend/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.ea84d0d2.chunk.js": "/ittisa-react-frontend/static/js/2.ea84d0d2.chunk.js",
+    "static/js/2.ea84d0d2.chunk.js.map": "/ittisa-react-frontend/static/js/2.ea84d0d2.chunk.js.map",
+    "index.html": "/ittisa-react-frontend/index.html",
+    "precache-manifest.63dd5dcb4f2282d28a59f1aa97b50d3d.js": "/ittisa-react-frontend/precache-manifest.63dd5dcb4f2282d28a59f1aa97b50d3d.js",
+    "service-worker.js": "/ittisa-react-frontend/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/ittisa-react-frontend/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.e75991fc.chunk.css.map": "/ittisa-react-frontend/static/css/main.e75991fc.chunk.css.map",
+    "static/media/REBELS.png": "/ittisa-react-frontend/static/media/REBELS.90f0e80b.png"
+  }
+}
